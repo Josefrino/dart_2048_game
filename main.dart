@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'isBoardEmpty.dart';
 import 'printBoard.dart';
 import 'spawnTwos.dart';
 
@@ -18,12 +19,11 @@ void main() {
   ];
 
   printBoard(board);
-  board = spawnTwos(board);
   while (true) {
     print(
         "Do you want to spawn twos on your board? answer with \"yes\" or \"no\"");
     var line = stdin.readLineSync(encoding: utf8);
-    if (line == "yes") {
+    if (line == "yes" && isBoardEmpty(board)) {
       board = spawnTwos(board);
       printBoard(board);
     } else {
