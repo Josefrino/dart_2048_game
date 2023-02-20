@@ -1,9 +1,11 @@
 List<List<int>> boardStringToIntConverter(List<List<String>> board) {
   List<List<int>> newBoard = [];
   for (int x = 0; x < board.length; x++) {
-    List<int> row = [];
+    List<int> row = [0, 0, 0, 0];
     for (int y = 0; y < board[0].length; y++) {
-      row.add(int.parse(board[x][y]));
+      if (board[x][y] != ' ') {
+        row[y] = int.parse(board[x][y]);
+      }
     }
     newBoard.add(row);
   }
@@ -13,9 +15,9 @@ List<List<int>> boardStringToIntConverter(List<List<String>> board) {
 List<List<String>> boardIntToStringConverter(List<List<int>> board) {
   List<List<String>> newBoard = [];
   for (int x = 0; x < board.length; x++) {
-    List<String> row = [];
+    List<String> row = ['0', '0', '0', '0'];
     for (int y = 0; y < board[0].length; y++) {
-      row.add(board[x][y].toString());
+      row[y] = (board[x][y].toString());
     }
     newBoard.add(row);
   }

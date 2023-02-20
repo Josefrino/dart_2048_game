@@ -1,7 +1,9 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'boardConvertFunctions.dart';
 import 'isBoardEmpty.dart';
+import 'playerSlideLeft.dart';
 import 'printBoard.dart';
 import 'spawnTwos.dart';
 
@@ -17,7 +19,9 @@ void main() {
     ['0', '0', '0', '0'],
     ['0', '0', '0', '0'],
   ];
-
+  printBoard(board);
+  boardStringToIntConverter(board);
+  board = slideLeft(board);
   printBoard(board);
   while (true) {
     print(
