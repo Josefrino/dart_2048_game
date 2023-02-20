@@ -3,8 +3,11 @@ import 'boardConvertFunctions.dart';
 List<List<String>> slideLeft(List<List<String>> gameBoard) {
   List<List<int>> newBoard = boardStringToIntConverter(gameBoard);
 
-  for (int x = newBoard.length - 1; x >= 0; x--) {
-    if (x == newBoard.length - 1) {
+  for (int row = 0; row < newBoard[0].length; row++) {
+    for (int col = newBoard.length - 1; col < gameBoard.length; col++) {
+      if (gameBoard[row][col] == '0') {
+        newBoard[3][col] = 2;
+      }
     }
   }
   gameBoard = boardIntToStringConverter(newBoard);

@@ -1,7 +1,6 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'boardConvertFunctions.dart';
 import 'isBoardEmpty.dart';
 import 'playerSlideLeft.dart';
 import 'printBoard.dart';
@@ -20,18 +19,17 @@ void main() {
     ['0', '0', '0', '0'],
   ];
   printBoard(board);
-  boardStringToIntConverter(board);
   board = slideLeft(board);
   printBoard(board);
-  while (true) {
-    print(
-        "Do you want to spawn twos on your board? answer with \"yes\" or \"no\"");
-    var line = stdin.readLineSync(encoding: utf8);
-    if (line == "yes" && isBoardEmpty(board)) {
-      board = spawnTwos(board);
-      printBoard(board);
-    } else {
-      break;
-    }
-  }
+  // while (true) {
+  //   print(
+  //       "Do you want to spawn twos on your board? answer with \"yes\" or \"no\"");
+  //   var line = stdin.readLineSync(encoding: utf8);
+  //   if (line == "yes" && isBoardEmpty(board)) {
+  //     board = spawnTwos(board);
+  //     printBoard(board);
+  //   } else {
+  //     break;
+  //   }
+  // }
 }
