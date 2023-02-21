@@ -4,4 +4,5 @@ The tiles can contain only integer values starting from 2, and that are a power 
 Ideally, the player should reach the 2048 tile within the smallest number of steps. 
 The board has dimension of 4 x 4 tiles, so that it can fit up to 16 tiles.
 If the board is full, and there is no possible move to make like merging tiles together - the game is over.
-Link with animation explaining the game -> https://www.freecodecamp.org/news/how-to-make-2048-game-in-react/ 
+Link with animation explaining the game -> https://www.freecodecamp.org/news/how-to-make-2048-game-in-react/
+All this will be done on the terminal!
