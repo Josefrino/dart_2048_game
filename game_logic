@@ -1,4 +1,7 @@
 2048 Game Rules
-In this game, the player must combine tiles containing the same numbers until they reach the number 2048. The tiles can contain only integer values starting from 2, and that are a power of two, like 2, 4, 8, 16, 32, and so on.
-
-Ideally, the player should reach the 2048 tile within the smallest number of steps. The board has dimension of 4 x 4 tiles, so that it can fit up to 16 tiles. If the board is full, and there is no possible move to make like merging tiles together - the game is over.
+In this game, the player must combine tiles containing the same numbers until they reach the number 2048. 
+The tiles can contain only integer values starting from 2, and that are a power of two, like 2, 4, 8, 16, 32, and so on.
+Ideally, the player should reach the 2048 tile within the smallest number of steps. 
+The board has dimension of 4 x 4 tiles, so that it can fit up to 16 tiles.
+If the board is full, and there is no possible move to make like merging tiles together - the game is over.
+Link with animation explaining the game -> https://www.freecodecamp.org/news/how-to-make-2048-game-in-react/ 
