@@ -21,6 +21,10 @@ void main() {
   printBoard(board);
   board = slideLeft(board);
   printBoard(board);
+  board = slideLeft(board);
+  printBoard(board);
+  board = slideLeft(board);
+  printBoard(board);
   // while (true) {
   //   print(
   //       "Do you want to spawn twos on your board? answer with \"yes\" or \"no\"");
