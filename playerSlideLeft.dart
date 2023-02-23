@@ -9,13 +9,12 @@ List<List<String>> slideLeft(List<List<String>> gameBoard) {
     }
     if (col > 0) {
       if (newBoard[0][col - 1] == 0) {
-        newBoard[0][col - 1] = 2;
+        newBoard[0][col - 1] = newBoard[0][col];
         newBoard[0][col] = 0;
       }
-      if (newBoard[0][col - 1] == 2) {
+      if (newBoard[0][col - 1] == newBoard[0][col]) {
         newBoard[0][col - 1] = newBoard[0][col] + newBoard[0][col - 1];
         newBoard[0][col] = 0;
-        break;
       }
     }
     // if (newBoard[0][col] == 0 && col > 0) {

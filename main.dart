@@ -13,13 +13,14 @@ void main() {
     1st -> display the board
   */
   List<List<String>> board = [
-    ['0', '0', '2', '2'],
+    ['2', '0', '0', '2'],
     ['0', '2', '0', '0'],
     ['0', '0', '0', '0'],
     ['0', '0', '0', '0'],
   ];
   printBoard(board);
   board = slideLeft(board);
+  board[0][3] = '4';
   printBoard(board);
   board = slideLeft(board);
   printBoard(board);
