@@ -6,6 +6,7 @@ The famous 2048 game recreated using the Dart programming language, only runs on
 - Randomly spawn the number 2 on the board: ✅
 - Implement the slide left function on one row function: ✅
 - Right down a list of taks needed to complete the project.
+- Right the pseudo code of the project and the algorithms behind
 
 -> Upcomming changes
 Ordered by priority 
