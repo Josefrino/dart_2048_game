@@ -8,7 +8,7 @@ The famous 2048 game recreated using the Dart programming language, only runs on
 - Right down a list of taks needed to complete the project.
 - Right the pseudo code of the project and the algorithms behind every function
 
-Back from the break
+- Restarting project
 -> Upcomming changes
 Ordered by priority 
 - Implement the slide left function on the entire board: ❌
