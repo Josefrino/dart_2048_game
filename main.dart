@@ -20,7 +20,6 @@ void main() {
   ];
   printBoard(board);
   board = slideLeft(board);
-  board[0][3] = '4';
   printBoard(board);
   board = slideLeft(board);
   printBoard(board);
