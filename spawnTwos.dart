@@ -2,7 +2,6 @@
 
 import 'dart:math';
 
-import 'isBoardEmpty.dart';
 
 List<List<String>> spawnTwos(List<List<String>> board) {
   List<List<String>> newBoard = board;
@@ -10,8 +9,7 @@ List<List<String>> spawnTwos(List<List<String>> board) {
   int maxHeight = newBoard.length;
   int randomX;
   int randomY;
-  bool boardIsEmpty = isBoardEmpty(board);
-  while (true && boardIsEmpty) {
+  while (true) {
     randomX = Random().nextInt(maxLength);
     randomY = Random().nextInt(maxHeight);
     if (newBoard[randomX][randomY] == ' ') {
