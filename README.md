@@ -11,5 +11,6 @@ The famous 2048 game recreated using the Dart programming language, only runs on
 - Restarting project April 02 2023
 -> Upcomming changes
 Ordered by priority 
+- Restart the entire process
 - Implement the slide left function on the entire board: ❌
 - Implement the slide right function on one row: ❌
