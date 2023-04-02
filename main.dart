@@ -17,9 +17,7 @@ void main() {
   printBoard(board);
   board = slideLeft(board);
   printBoard(board);
-  board = slideLeft(board);
-  printBoard(board);
-  spawnTwos(board);
+  board = spawnTwos(board);
   printBoard(board);
   // while (true) {
   //   print(
