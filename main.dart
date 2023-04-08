@@ -14,11 +14,32 @@ void main() {
     ['0', '0', '0', '0'],
     ['0', '0', '0', '0'],
   ];
+  // 1st Play
   printBoard(board);
   board = slideLeft(board);
   printBoard(board);
+  // 2nd Play
   board = spawnTwos(board);
   printBoard(board);
+  board = slideLeft(board);
+  printBoard(board);
+  // 3rd play
+  board = spawnTwos(board);
+  printBoard(board);
+  board = slideLeft(board);
+  printBoard(board);
+  // 4th play
+  board = spawnTwos(board);
+  printBoard(board);
+  board = slideLeft(board);
+  printBoard(board);
+  // 5th play
+  board = spawnTwos(board);
+  printBoard(board);
+  board = slideLeft(board);
+  printBoard(board);
+  // 6th play
+
   // while (true) {
   //   print(
   //       "Do you want to spawn twos on your board? answer with \"yes\" or \"no\"");
