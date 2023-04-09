@@ -1,4 +1,5 @@
 import 'playerSlideLeft.dart';
+import 'playerSlideRight.dart';
 import 'printBoard.dart';
 import 'spawnTwos.dart';
 
@@ -37,6 +38,11 @@ void main() {
   board = spawnTwos(board);
   printBoard(board);
   board = slideLeft(board);
+  printBoard(board);
+
+  board = slideRight(board);
+  printBoard(board);
+  board = slideRight(board);
   printBoard(board);
   // 6th play
 
