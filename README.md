@@ -9,3 +9,4 @@ Pseudocode:
 - Place everything inside a game loop that stops when you can't move any further(no neighbor numbers are equal) or you've reached a total of 2048
 ___
 - Fix the sliding funtion so that it only sums the numbers once per movement
+- Refactor the entire project
