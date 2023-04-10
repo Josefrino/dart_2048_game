@@ -10,4 +10,3 @@ Pseudocode:
 ___
 - Fix the sliding funtion so that it only sums the numbers once per movement
 - Refactor the entire project
-- Implement game Loop
