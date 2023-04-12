@@ -58,7 +58,7 @@ List<List<String>> slideRight(List<List<String>> gameBoard) {
     }
     if (col < newBoard[0].length - 1) {
       if (newBoard[3][col + 1] == 0) {
-        newBoard[3][col + 1] = newBoard[0][col];
+        newBoard[3][col + 1] = newBoard[3][col];
         newBoard[3][col] = 0;
       }
       if (newBoard[3][col + 1] == newBoard[3][col]) {
