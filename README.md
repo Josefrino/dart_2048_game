@@ -8,6 +8,8 @@ Pseudocode:
 - Do the same as step 2 but for sliding right, bottom and up
 - Place everything inside a game loop that stops when you can't move any further(no neighbor numbers are equal) or you've reached a total of 2048
 ___
-- Slide right function fixed
+- Slide right function fixed ✅
+- Slide Up ❌
+- Slide Down ❌
 - Refactor the entire project
 - Implement game Loop
