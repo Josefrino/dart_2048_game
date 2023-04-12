@@ -7,7 +7,7 @@ Pseudocode:
 - Create a function to slide every number in the board as far to the left as it can, if it reaches the end then stop, if the number right after is equal, add the number on the right to the one on the left
 - Do the same as step 2 but for sliding right, bottom and up
 - Place everything inside a game loop that stops when you can't move any further(no neighbor numbers are equal) or you've reached a total of 2048
-___
+
 ## ToDo
 - Slide right function fixed ✅
 - Slide Up ❌
