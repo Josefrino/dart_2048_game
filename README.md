@@ -14,3 +14,4 @@ Pseudocode:
 - Slide Down ❌
 - Refactor the entire project
 - Implement game Loop
+- Restart the entire project with new game logic and more efficient algorithms
